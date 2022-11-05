@@ -1,0 +1,17 @@
+.homeicon-stopwatch {
+  font-size: 40px;
+}
+
+.homeicon-list {
+  font-size: 40px;
+}
+
+.br {
+  display: none;
+}
+
+@media (max-width: 960px) {
+  .br {
+    display: block;
+  }
+}/*# sourceMappingURL=home.css.map */

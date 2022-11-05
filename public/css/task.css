@@ -1,0 +1,75 @@
+.tasktitle {
+  font-size: 40px;
+  font-weight: 1400;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button {
+  border: none;
+  background-color: #fa7f44;
+  border-radius: 10px;
+  color: #f9f9f9;
+  height: 40px;
+  width: 60px;
+  font-size: 18px;
+  line-height: 38px;
+  box-shadow: 0 5px 0 0 #4a2a15;
+}
+.button:hover {
+  background-color: #f95d12;
+}
+.button:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+.submit {
+  display: block;
+  border: none;
+  background-color: #5edffe;
+  border-radius: 100px;
+  color: #f9f9f9;
+  height: 60px;
+  width: 200px;
+  font-size: 25px;
+  line-height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  box-shadow: 0 5px 0 0 #285e6b;
+}
+.submit:hover {
+  background-color: #2bd5fe;
+}
+.submit:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+@media (max-width: 960px) {
+  .task-message {
+    width: 80%;
+  }
+  .button {
+    padding-left: 9px;
+    width: 55px;
+    font-size: 18px;
+  }
+  .button:hover {
+    background-color: #fa7f44;
+  }
+  .button i {
+    padding-left: 9px;
+  }
+  .submit {
+    padding-left: 9px;
+  }
+  .submit:hover {
+    background-color: #5edffe;
+  }
+  .submit i {
+    padding-left: 9px;
+  }
+}/*# sourceMappingURL=task.css.map */
